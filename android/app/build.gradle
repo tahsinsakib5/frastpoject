@@ -23,7 +23,11 @@ if (flutterVersionName == null) {
 }
 
 android {
+<<<<<<< HEAD
     namespace "com.example.hojor"
+=======
+    namespace "com.example.poject"
+>>>>>>> 453d17e45b913584683832c826f23094d1a16459
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -42,10 +46,17 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId "com.example.hojor"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion 21
+=======
+        applicationId "com.example.poject"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+        minSdkVersion flutter.minSdkVersion
+>>>>>>> 453d17e45b913584683832c826f23094d1a16459
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -64,6 +75,7 @@ flutter {
     source '../..'
 }
 
+<<<<<<< HEAD
 apply plugin:"com.android.application"
 apply plugin:"com.google.gms.google-services"
 
@@ -71,3 +83,6 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
     implementation("com.google.firebase:firebase-analytics-ktx")
 }
+=======
+dependencies {}
+>>>>>>> 453d17e45b913584683832c826f23094d1a16459

@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "hojor",
     "short_name": "hojor",
+=======
+    "name": "poject",
+    "short_name": "poject",
+>>>>>>> 453d17e45b913584683832c826f23094d1a16459
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

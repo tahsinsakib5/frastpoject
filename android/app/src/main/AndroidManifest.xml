@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="hojor"
+=======
+        android:label="poject"
+>>>>>>> 453d17e45b913584683832c826f23094d1a16459
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
